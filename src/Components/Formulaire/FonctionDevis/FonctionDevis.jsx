@@ -4,7 +4,7 @@ export default function FonctionDevis({ devisPrice }){
     if(devisPrice === "titleSelect"){
         return ( 
         <div className="noPrice">
-            <h1>----€</h1>
+            <h1>---€</h1>
             </div>
         )
     } 
