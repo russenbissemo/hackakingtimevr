@@ -1,0 +1,7 @@
+.mapmonde{
+    background: url("../img/world-g335331ff9_1920.jpg");
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}

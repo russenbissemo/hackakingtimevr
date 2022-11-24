@@ -1,10 +1,13 @@
+/* eslint-disable no-unused-vars */
 import './App.css';
+import Accueil from "./Accueil";
 import FormulaireReservationPage from "./pages/FormulaireReservationPage"
 
 function App() {
   return (
     <div className="App">
-   <FormulaireReservationPage />
+      <Accueil />
+      <FormulaireReservationPage />
     </div>
   );
 }

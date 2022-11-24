@@ -1,14 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Card from './Card';
-import "./Card.css";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "../src/css/Card.css";
 import "./Main.css";
-import reportWebVitals from './reportWebVitals';
-import 'typeface-quicksand';
+//import "typeface-quicksand";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Card />
+    <App />
   </React.StrictMode>
 );
