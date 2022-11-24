@@ -2,11 +2,11 @@ import React from 'react';
 import "./period.css"
 
 
-const Period_Infos = ({ pyramide }) => {
+const Period_Infos = ({ greece }) => {
     return (
 
-        pyramide && (<div className='Period__Infos'>
-
+        greece && (<div className='Period__Infos__Greece'>
+            <p>Bienvenue au Far West, Epoque des grands bandits</p>
         </div>)
 
     );
