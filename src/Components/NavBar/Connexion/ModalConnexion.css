@@ -1,0 +1,113 @@
+.popUpModalConnexion{
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.AllModalConnexion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+}
+
+.FormulaireConnexion{
+    width: 100%;
+}
+
+.positionModalConnexionSurLaPage{
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    margin-top: 60px;
+    background-color: rgb(231, 212, 188);
+    box-shadow: 5px 5px 5px rgb(121, 110, 96);
+    border-radius: 40px;
+    margin-top: 250px;
+}
+
+.titleTextModalConnexion{
+    margin-bottom: 40px;
+    font-size: large;
+    color: rgb(121, 110, 96);;
+}
+
+.divContainerConnexion{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+  }
+  
+  .motDePasseConnexion, .inputMailConnexion{
+      position: relative;
+     display: flex;
+      width: 100%;
+      margin-bottom: 40px;
+  }
+  
+  .titreFormulaireConnexion{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+  }
+  
+  .AllDivConnexion{
+      padding-right: 30px;
+      padding-left: 30px;
+      padding-top: 30px;
+      padding-bottom: 50px;
+      width: 100%;
+      border: 1px solid rgba(0, 0, 0, 0.139);
+      border-radius: 40px;
+  
+  
+  }
+  
+  .inputFirstNameAndNameConnexion, .inputMailTelephone{
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  input{
+      border: solid 1.5px grey;
+      border-radius: 1rem;
+      background: none;
+      padding: 1rem;
+      width: 90%;
+      font-size: 1rem;
+      color: rgb(98, 90, 79);
+      transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+      outline: none;
+      border: 0.1rem solid rgb(121, 110, 96);
+  }
+  
+  label{
+      position: absolute;
+      left: 16px;
+      color: rgb(255, 255, 255);
+      pointer-events: none;
+      transform: translateY(1rem);
+      transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  input ~ label {
+      transform: translateY(-50%) scale(0.8);
+      background-color: rgb(139, 132, 123);
+  }
+  
+
+
+  
