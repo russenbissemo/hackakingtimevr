@@ -1,5 +1,4 @@
 
-// API Mapmonde 
 export const  themeList =[
    {
      id:1,
@@ -7,7 +6,6 @@ export const  themeList =[
      description: "Voila les samurai",
      url: "./samurai.jpg",
      background: "",
-    
    },
    {
     id:2,
@@ -15,13 +13,18 @@ export const  themeList =[
      description: "Voila les grecs",
      url: "./grece.jpg",
      background: "",
-
   },
   {id:3,
     title: 'farwest',
     description: "Voila les cowboys",
     url: "./farwest.jpg",
     background: "./wanted.png",
+  },
+  {id:4,
+    title: 'china',
+    description: "Voila les jaunes",
+    url: "./china.jpg",
+    background: "ricard.png",
   },
 
 ]

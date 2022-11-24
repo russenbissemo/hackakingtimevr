@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState } from 'react';
 import { themeList, cardList } from "../data/data";
 import Theme from "../Components/Theme";
 import Card from "../Components/Card";
@@ -6,12 +6,18 @@ import Frame from '../Components/Frame';
 import "../css/Theme.css"
 
 
-function Mapmonde(){
- const [themeSelected , setThemeSelected] = useState()
- console.log(themeSelected)
+function Mapmonde() {
+    
+    const [themeSelected, setThemeSelected] = useState()
+
+    const handleClick = (value) => {
+        setThemeSelected(value)
+    }
+    
     return (
         <section
-        onClick={() => themeSelected && setThemeSelected(null)}>
+            onClick={() => themeSelected && setThemeSelected(null)}
+        >
             <div className="earth-container">
                 <div className="earth">
                     <div
@@ -19,7 +25,8 @@ function Mapmonde(){
                     >
                         {themeList.map(theme =>
                             <Theme
-                                setThemeSelected={setThemeSelected}
+                                id="theme"
+                                setThemeSelected={handleClick}
                                 title={theme.title}
                                 image={theme.url}
                             />)
@@ -27,14 +34,16 @@ function Mapmonde(){
                     </div>
                 </div>
                 <Frame
-                    theme={themeSelected}/>
+                    theme={themeSelected}
+                />
             </div>
             <div style={{ display: "flex", gap: "1em" }}>
                 {cardList
                     .filter(card => card.theme === themeSelected)
                     .map(card => card.card).flat()
                     .map(card => <Card description={card.description} />)}
-        </div></section>
+            </div>
+        </section>
     );
     
 }
