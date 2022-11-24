@@ -1,12 +1,10 @@
-/* eslint-disable no-unused-vars */
-import Background from "./Components/Background/Background";
-import Accueil from "./pages/Accueil";
+import './App.css';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
     <div className="App">
-      <Background/>
-      <Accueil />
+      <HomePage />
     </div>
   );
 }
