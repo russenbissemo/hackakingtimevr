@@ -1,6 +1,6 @@
 
 // API Mapmonde 
-export const  section =[
+export const  themeList =[
    {
      id:1,
      title: 'indien',
@@ -22,7 +22,7 @@ export const  section =[
 
 ]
 
-export const themeList = [{
+export const cardList = [{
  theme: "indien",
  card: [ 
   { id :1,

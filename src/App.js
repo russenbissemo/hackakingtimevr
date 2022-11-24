@@ -1,10 +1,8 @@
 /* eslint-disable no-unused-vars */
-import logo from "./logo.svg";
-import "./App.css";
-import Mapmonde from "./components/Mapmonde";
+import Accueil from "./Accueil";
 
 function App() {
-  return <Mapmonde />;
+  return <Accueil />;
 }
 
 export default App;
