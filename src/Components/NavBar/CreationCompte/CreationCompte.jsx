@@ -1,4 +1,4 @@
-import "../CreationCompte/ModalCreationCompte.css"
+import "../CreationCompte/CreationCompte.css"
 
 export default function ModalCreationCompte() {
 
@@ -34,8 +34,24 @@ export default function ModalCreationCompte() {
                         <input type="text" />
                         <label>Téléphone</label>
                     </div>
-
                 </div>
+                <div className="allAdresseCreationCompte"></div>
+                  <div className="inputNumeroRueCreationCompte">
+                    <input type="text" />
+                    <label>Numéro de rue</label>
+                  </div>
+                  <div className="inputNomDeRueCreationCompte">
+                    <input type="text" />
+                    <label >Nom de rue</label>
+                  </div>
+                  <div className="inputCodePostalCreationCompte">
+                    <input type="text" />
+                    <label>Code postal</label>
+                  </div>
+                  <div className="inputVilleCreationCompte">
+                    <input type="text" />
+                    <label>Ville</label>
+                  </div>
               
                 </form>
                 
