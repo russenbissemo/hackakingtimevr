@@ -1,6 +1,3 @@
-import React from 'react';
-import "./period.css"
-
 
 const Period_Infos = ({ greece }) => {
     return (

@@ -1,14 +1,12 @@
-.Periods {
+/* .Periods {
     background-image: url('../../public/espace.jpg');
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     position: fixed;
     margin: 0;
     padding: 0;
-}
-
-
+} */
 
 .Period__Un,
 .Period__Deux,
@@ -73,22 +71,9 @@
 }
 
 .earth {
-    /* position: relative; */
-    /* width: 50vw;
-    margin: 15vh 0;
-    height: 70vh; */
-    /* background-image: url("../../public/590923.jpg");
-    background-size: contain;
-    background-position: center; */
-
-    width: 35vw;
-    height: 65vh;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+    width: 20em;
+    height: 20em;
+    
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;

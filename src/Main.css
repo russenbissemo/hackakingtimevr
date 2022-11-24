@@ -1,6 +1,11 @@
 /* FONTS-CONTENT */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
 
 /* VARIABLE-CONTENT */
 :root {
@@ -9,4 +14,13 @@
     --white-color: #ffffff;
     --red-color: #f36d6d;
     --font-typed: "Josefin Sans";
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,7 +1,6 @@
-import React from 'react';
 import { useState } from 'react';
-import './period.css'
-import PeriodInfos from './PeriodInfos';
+import "../../css/Section.css"
+import SectionInfos from './SectionInfos';
 
 const Period = () => {
 
@@ -25,7 +24,7 @@ const Period = () => {
                     </div></div>
 
             </div >
-            <PeriodInfos greece={greece} />
+            <SectionInfos greece={greece} />
         </div>
 
     );
