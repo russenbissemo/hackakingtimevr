@@ -47,11 +47,11 @@ export const themeList = [{
  { id :2,
   title: "romains",
   image: 'https://randomuser.me/api/portraits/men/75.jpg',
-  description: "blablaIndians"},
+  description: "Romains"},
  { id :3,
   title: "romains",
   image: 'https://randomuser.me/api/portraits/men/75.jpg',
-  description: "blablaIndians"} ]},
+  description: "Romains"} ]},
 
  {theme: "farwest",
  card: [ 

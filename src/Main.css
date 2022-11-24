@@ -1,0 +1,12 @@
+/* FONTS-CONTENT */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+/* VARIABLE-CONTENT */
+:root {
+    --dark-grey-color: #6b6b6b;
+    --grey-color: #c4c3c3;
+    --white-color: #ffffff;
+    --red-color: #f36d6d;
+    --font-typed: "Josefin Sans";
+}
