@@ -35,24 +35,35 @@ export default function ModalCreationCompte() {
                         <label>Téléphone</label>
                     </div>
                 </div>
-                <div className="allAdresseCreationCompte"></div>
-                  <div className="inputNumeroRueCreationCompte">
-                    <input type="text" />
-                    <label>Numéro de rue</label>
+                  <div className="allAdresseCreationCompte"></div>
+                    <div className="inputNumeroRueCreationCompte">
+                      <input type="text" />
+                      <label>Numéro de rue</label>
+                    </div>
+                    <div className="inputNomDeRueCreationCompte">
+                      <input type="text" />
+                      <label >Nom de rue</label>
+                    </div>
+                  <div className="allCodePostalVille">
+                    <div className="inputCodePostalCreationCompte">
+                      <input type="text" />
+                      <label>Code postal</label>
+                    </div>
+                    <div className="inputVilleCreationCompte">
+                      <input type="text" />
+                      <label>Ville</label>
+                    </div>
                   </div>
-                  <div className="inputNomDeRueCreationCompte">
-                    <input type="text" />
-                    <label >Nom de rue</label>
+                  <div className="AllMotDePasse">
+                    <div className="motDePasseCreationCompte">
+                      <input type="password" />
+                      <label>Mot de passe</label>
+                    </div>
+                    <div className="confirmationMotDePasseCreationCompte">
+                      <input type="password" />
+                      <label>Confirmation du mot de passe</label>
+                    </div>
                   </div>
-                  <div className="inputCodePostalCreationCompte">
-                    <input type="text" />
-                    <label>Code postal</label>
-                  </div>
-                  <div className="inputVilleCreationCompte">
-                    <input type="text" />
-                    <label>Ville</label>
-                  </div>
-              
                 </form>
                 
             <button

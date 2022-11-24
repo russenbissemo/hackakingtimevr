@@ -24,13 +24,13 @@
 
 .positionModalCreationCompteSurLaPage{
     padding: 20px;
-    width: 60%;
+    width: 80%;
     text-align: center;
-    margin-top: 60px;
+    margin-bottom: 100px;
     background-color: rgb(231, 212, 188);
     box-shadow: 5px 5px 5px rgb(121, 110, 96);
     border-radius: 40px;
-    margin-top: 250px;
+    margin-top: 100px;
 }
 
 .titleTextModalCreationCompte{
@@ -48,10 +48,23 @@
     justify-content: center;
     margin-top: 0;
   }
-  
-  .inputFirstNameCreationCompte, .inputNumeroRueCreationCompte, .inputNomDeRueCreationCompte, .inputCodePostalCreationCompte, .inputVilleCreationCompte, .inputLastNameCreationCompte, .inputMailCreationCompte, .inputTelephoneCreationCompte{
+
+  .AllMotDePasse{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.inputNomDeRueCreationCompte{
+    position: relative;
+    display: flex;
+      width: 105%;
+      margin-right: 5px;
+      margin-bottom: 40px;
+}
+
+  .inputFirstNameCreationCompte, .inputNumeroRueCreationCompte, .motDePasseCreationCompte, .confirmationMotDePasseCreationCompte,  .inputCodePostalCreationCompte, .inputVilleCreationCompte, .inputLastNameCreationCompte, .inputMailCreationCompte, .inputTelephoneCreationCompte{
       position: relative;
-      width: 40%;
+      width: 47%;
       margin-bottom: 40px;
   }
   
@@ -74,6 +87,11 @@
   .inputFirstNameAndNameCreationCompte, .allAdresseCreationCompte, .inputMailTelephoneCreationCompte{
       display: flex;
       justify-content: space-between;
+  }
+
+  .allCodePostalVille{
+    display: flex;
+    justify-content: space-between;
   }
   
   input{
