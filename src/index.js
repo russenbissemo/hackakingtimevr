@@ -4,11 +4,13 @@ import Card from './Card';
 import "./Card.css";
 import "./Main.css";
 import reportWebVitals from './reportWebVitals';
-import 'typeface-quicksand';
+import Background from './Background/Background';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Background/>
     <Card />
   </React.StrictMode>
 );
