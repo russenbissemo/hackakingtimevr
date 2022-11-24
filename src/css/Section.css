@@ -8,9 +8,7 @@
     padding: 0;
 } */
 
-.Period__Un,
-.Period__Deux,
-.Period__Trois {
+.period {
     border: solid 3px black;
     width: 3em;
     height: 3em;
@@ -18,62 +16,41 @@
     margin-right: 4em;
 }
 
-.Period__Un img,
-.Period__Deux img,
-.Period__Trois img {
+.period img {
     object-fit: cover;
     width: inherit;
     height: inherit;
     border-radius: 50%;
 }
 
-.Period__Un {
+.period:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
+.farwest{
     position: absolute;
     top: 24%;
     left: 18%;
 }
 
-.Period__Deux {
+.grece{
     position: absolute;
     top: 23%;
     left: 50%;
 }
 
-.Period__Trois {
+.samurai {
     position: absolute;
     top: 35%;
     right: 8%;
 }
 
-.Period__Infos__Greece {
-    position: absolute;
-    bottom: 5em;
-    left: 3em;
-    width: 15vw;
-    height: 40vh;
-    background-image: url("../../public/wanted.png");
-    background-size: cover;
-    text-align: center;
-    line-height: 40vh;
-
-}
-
-.Period__Infos__Greece p {
-    padding: 0 1em;
-
-}
-
-.Period__Un:hover,
-.Period__Deux:hover,
-.Period__Trois:hover {
-    transform: scale(1.5);
-    cursor: pointer;
-}
 
 .earth {
     width: 20em;
     height: 20em;
-    
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
@@ -99,8 +76,27 @@
     background-size: cover;
 }
 
+
 @keyframes spin {
     to {
         transform: translateX(-50%);
     }
 }
+
+/* 
+.Period__Infos__Greece {
+    position: absolute;
+    bottom: 5em;
+    left: 3em;
+    width: 15vw;
+    height: 40vh;
+    background-image: url("../../public/wanted.png");
+    background-size: cover;
+    text-align: center;
+    line-height: 40vh;
+
+}
+
+.Period__Infos__Greece p {
+    padding: 0 1em;
+} */

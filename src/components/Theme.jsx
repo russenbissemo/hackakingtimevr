@@ -2,7 +2,9 @@
 const Theme = ({image , title,setThemeSelected}) => {
   
   return (
-    <button onClick={()=> setThemeSelected(title)}>{title}</button>
+    <div onClick={()=> setThemeSelected(title)} className={`period ${title}`} >
+    <img src={image} alt={title} />
+    </div>
   )
 }
 

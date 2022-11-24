@@ -3,27 +3,30 @@
 export const  themeList =[
    {
      id:1,
-     title: 'indien',
-     url:"",
+    title: 'samurai',
+     description: "voila les samurai",
+     url:"./samurai.jpg",
     
    },
 
    {
     id:2,
-    title: 'romain',
-    url:"",
+     title: 'grece',
+    description: "voila les grecs",
+    url:"./grece.jpg",
 
   },
   {id:3,
     title: 'farwest',
-    url:"",
+    description: "voila les cowboys",
+    url:"./farwest.jpg",
 
   },
 
 ]
 
 export const cardList = [{
- theme: "indien",
+ theme: "grece",
  card: [ 
   { id :1,
   title: "Indians",
@@ -38,7 +41,7 @@ export const cardList = [{
   image: 'https://randomuser.me/api/portraits/men/75.jpg',
   description: "blablaIndians"} ]},
 
- {theme: "romain",
+ {theme: "samurai",
  card: [ 
   { id :1,
   title: "romains",
