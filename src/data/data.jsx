@@ -3,24 +3,25 @@
 export const  themeList =[
    {
      id:1,
-    title: 'samurai',
-     description: "voila les samurai",
-     url:"./samurai.jpg",
+     title: 'samurai',
+     description: "Voila les samurai",
+     url: "./samurai.jpg",
+     background: "",
     
    },
-
    {
     id:2,
      title: 'grece',
-    description: "voila les grecs",
-    url:"./grece.jpg",
+     description: "Voila les grecs",
+     url: "./grece.jpg",
+     background: "",
 
   },
   {id:3,
     title: 'farwest',
-    description: "voila les cowboys",
-    url:"./farwest.jpg",
-
+    description: "Voila les cowboys",
+    url: "./farwest.jpg",
+    background: "./wanted.png",
   },
 
 ]

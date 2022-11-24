@@ -1,21 +1,39 @@
 import {useState} from 'react';
 import { themeList, cardList } from "../data/data";
-import Card from "../Components/Card";
 import Theme from "../Components/Theme";
-import "../css/Section.css"
+import Card from "../Components/Card";
+import Frame from '../Components/Frame';
+import "../css/Theme.css"
 
 
 function Mapmonde(){
- const [themeSelected , setThemeSelected] =useState("")
+ const [themeSelected , setThemeSelected] = useState()
  console.log(themeSelected)
     return (
-        <section>
-            <div className="earth">
-                <div style={{height: "20em"}}>
-                    {themeList.map(theme => <Theme setThemeSelected={setThemeSelected} title={theme.title} image={theme.url} />)}
+        <section
+        onClick={() => themeSelected && setThemeSelected(null)}>
+            <div className="earth-container">
+                <div className="earth">
+                    <div
+                        style={{ height: "38em" }}
+                    >
+                        {themeList.map(theme =>
+                            <Theme
+                                setThemeSelected={setThemeSelected}
+                                title={theme.title}
+                                image={theme.url}
+                            />)
+                        }
+                    </div>
                 </div>
+                <Frame
+                    theme={themeSelected}/>
             </div>
-       <div style={{display: "flex", gap: "1em"}} > {cardList.filter(card => card.theme === themeSelected).map(card => card.card).flat().map(card => <Card description={card.description}/>)}
+            <div style={{ display: "flex", gap: "1em" }}>
+                {cardList
+                    .filter(card => card.theme === themeSelected)
+                    .map(card => card.card).flat()
+                    .map(card => <Card description={card.description} />)}
         </div></section>
     );
     

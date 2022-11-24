@@ -1,0 +1,106 @@
+/* .Periods {
+    background-image: url('../../public/espace.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+} */
+
+
+.earth {
+    position: relative;
+    width: 38em;
+    height: 38em;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #000 inset, 0 0 2em 2px #000;
+}
+
+.earth:after {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: -20px -20px 50px 2px #000 inset;
+    border-radius: 50%;
+}
+
+.earth>div {
+    width: 200%;
+    height: 100%;
+    animation: spin 30s linear alternate infinite;
+    background: url("../../public/world.jpg");
+    background-size: cover;
+}
+
+
+@keyframes spin {
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+.period {
+    border: solid 3px black;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-right: 4em;
+}
+
+.period img {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}
+
+.period:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.farwest{
+    position: absolute;
+    top: 24%;
+    left: 18%;
+}
+
+.grece{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+}
+
+.samurai {
+    position: absolute;
+    top: 35%;
+    right: 8%;
+}
+
+.china {
+    position: absolute;
+top: 25%;
+right: 12%;
+}
+
+.frame {
+    position: absolute;
+    background-size: cover;
+    top: 30em;
+    width: 15em;
+    height: 20em;
+    transform: translateY(-10em);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.frame p {
+    padding: 0 0.2em;
+    font-size: 2em;
+}
