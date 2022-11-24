@@ -18,7 +18,9 @@ export default function FormulaireReservation(){
   
 
    return(
+  
     <div className="divContainerFormulaire">
+
         <div className="AllDivFormulaireReservation">
             <form>
                 <div className="titreFormulaireReservationDiv">
@@ -58,7 +60,7 @@ export default function FormulaireReservation(){
                                     <option key="tempsImmersion" id="tempsImmersion" value="">45 min</option>
                                 </select>
                                 
-                        </div> 
+                        </div>  
                     </div>
                     <div className="devis">
                             <FonctionDevis 

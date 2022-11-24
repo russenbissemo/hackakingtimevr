@@ -24,12 +24,10 @@
     padding-right: 30px;
     padding-left: 50px;
     padding-top: 30px;
-    padding-bottom: 50px;
-    width: 70%;
+    width: 90%;
+    padding-bottom: 40px;
     border: 1px solid black;
     border-radius: 40px;
-
-
 }
 
 .inputFirstNameAndName,
