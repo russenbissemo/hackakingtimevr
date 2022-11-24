@@ -5,7 +5,6 @@ import Sections from "../Components/Sections/Section"
 import Card from "../Components/Card";
 import Theme from "../Components/Theme";
 
-
 function Mapmonde(){
  const [themeSelected , setThemeSelected] =useState("")
  console.log(themeSelected)

@@ -15,18 +15,6 @@
     transform-style: preserve-3d;
     transform: perspective(1000px);
     }
-
-.card-container:after {
-    content: "";
-    inset: -3px;
-    transform: translateZ(-1px);
-    animation: rgb 6s linear infinite;
-}
-@keyframes rgb {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
-  }
 .card-img {
     border-radius: 5% 5% 0 0;
     width: 16rem;
