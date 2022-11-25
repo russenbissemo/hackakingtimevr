@@ -1,13 +1,17 @@
-import "../Background/Background.css";
+// import React from "react";
+// import "./BackGround.css";
 
-export function Background() {
-    return (
-        <div class="space">
-  <div class="particle"></div>
-  <div class="particle"></div>
-  <div class="particle"></div>
-  <div class="particle"></div>
-</div>
-    )
-}
-export default Background
+// function BackGround() {
+//   return (
+//     <>
+//       <div className="bg" />
+//       <div className="star-field">
+//         <div className="layer" />
+//         <div className="layer" />
+//         <div className="layer" />
+//       </div>
+//     </>
+//   );
+// }
+
+// export default BackGround;
