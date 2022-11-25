@@ -11,7 +11,8 @@ export default function ModalCreationCompte({showModalCreationCompte}) {
       <div className="AllModalCreationCompte">
           <div className="positionModalCreationCompteSurLaPage">
           <div className="croixFermeture">
-              <div onClick={()=> showModalCreationCompte ? showModalCreationCompte(false) : showModalCreationCompte(true)} style={{backgroundColor: "white", borderRadius: "100%", height: "2em", width: "2em", display: "flex",alignItems: "center", justifyContent: "center", transform: "translate(-15px)" }}>X</div>
+            <div onClick={() => showModalCreationCompte ? showModalCreationCompte(false) : showModalCreationCompte(true)}
+              style={{backgroundColor: "white", borderRadius: "100%", height: "2em", width: "2em", display: "flex",alignItems: "center", justifyContent: "center", transform: "translate(-3em, 2em)", position: "absolute"}}>X</div>
             </div>
             <div className="divContainerCreationCompte">
         <div className="AllDivCreationCompte">

@@ -14,7 +14,7 @@ export default function ModalConnexion({ showModalConnexion }) {
           <div className="positionModalConnexionSurLaPage">
             <div className="croixFermeture">
             <div onClick={() => showModalConnexion ? showModalConnexion(false) : showModalConnexion(true)}
-            style={{backgroundColor: "white", borderRadius: "100%", height: "2em", width: "2em", display: "flex",alignItems: "center", justifyContent: "center", transform: "translate(-15px)" }}>X</div>
+            style={{backgroundColor: "white", borderRadius: "100%", height: "2em", width: "2em", display: "flex",alignItems: "center", justifyContent: "center", transform: "translate(-1.5em, 1.1em)", position: "absolute"}}>X</div>
             </div>
             <div className="divContainerConnexion">
         <div className="AllDivConnexion">

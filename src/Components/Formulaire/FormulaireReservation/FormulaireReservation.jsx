@@ -4,6 +4,9 @@ import devisPersonnalise from "../FonctionDevis/DevisPersonnalise";
 import FonctionDevis from "../FonctionDevis/FonctionDevis";
 import ModalValidationFormulaireReservation from "./ModalValidationFormulaireReservation/ModalValidationFormulaireReservation";
 import NavBar from "../../NavBar/NavBar";
+import BackgroundVideo from "../../../img/background.mp4"
+
+
 export default function FormulaireReservation(){
 
     const [price, setPrice] = useState("");
@@ -18,9 +21,13 @@ export default function FormulaireReservation(){
   
 
     return (
-        <section style={{display: "block"}}>
+        <section >
+            <video id="background-video" loop autoPlay>
+    <source src={BackgroundVideo} type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
             <NavBar />
-            <div className="divContainerFormulaire">
+            <div className="divContainerFormulaire" style={{position: "absolute", top: "10em"}}>
             <div className="AllDivFormulaireReservation">
                 <form>
                     <div className="titreFormulaireReservationDiv">

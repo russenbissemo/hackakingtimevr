@@ -6,6 +6,7 @@
     justify-content: space-between;
     height: 6em;
     padding: 1em;
+    z-index: 2;
   }
 
 .menu {
@@ -19,6 +20,7 @@
   .menu > li {
     margin: 0 1rem;
     overflow: hidden;
+    color: white;
   }
 
   .menu > li:hover{

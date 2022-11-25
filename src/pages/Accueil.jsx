@@ -5,16 +5,19 @@ import Theme from "../Components/Theme";
 import Card from "../Components/Card";
 import "../css/Theme.css"
 import ScrollContainer from 'react-indiana-drag-scroll'
+import BackgroundVideo from "../img/background.mp4"
 
 function Mapmonde() {
 
     const [themeSelected, setThemeSelected] = useState()
-    // const [showFrame, setShowFrame] = useState()
 
     return (
         <section
-        // onClick={() => themeSelected && setThemeSelected(null)}
         >
+            <video id="background-video" loop autoPlay>
+    <source src={BackgroundVideo} type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
             <NavBar />
             <div className="earth-container">
 

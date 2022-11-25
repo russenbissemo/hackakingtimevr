@@ -20,12 +20,25 @@
 section {
     width: 100vw;
     height: 100vh;
+    z-index: -2;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
     background-color: aliceblue;
 }
+
+#background-video{
+  height: 100%;
+  width: 200%;
+  z-index: 0;
+  float: left;
+  top: 0;
+  position: fixed;
+  transform: rotate(90deg);
+  opacity: 1;
+  }
+  
 
 @keyframes zoom {
     from {

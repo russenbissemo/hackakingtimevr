@@ -4,7 +4,11 @@
   align-items: center;
   width: 95%;
   height: auto;
- margin: auto;
+  margin: auto;
+  position: relative;
+  border-radius: 3em;
+  background-color: aliceblue;
+  border: 0.5em solid white;
 }
 
 .tempsReservation{
@@ -29,7 +33,6 @@
     padding-top: 30px;
     width: 65em;
     padding-bottom: 40px;
-    border: 1px solid black;
     border-radius: 40px;
 }
 

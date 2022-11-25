@@ -7,7 +7,6 @@
     right: 0;
     left: 0;
     z-index: 50;
-    background-color: rgba(255, 255, 255, 0.643);
 }
 
 .AllModalCreationCompte{
@@ -80,8 +79,6 @@
   .AllDivCreationCompte{
       padding: 4em;
       width: 100%;
-      border: 1px solid rgba(67, 67, 67, 0.108);
-      border-radius: 5em;
   }
   
   .inputFirstNameAndNameCreationCompte, .allAdresseCreationCompte, .inputMailTelephoneCreationCompte{
