@@ -46,12 +46,12 @@
 select{
         width: 100%;
         height: 30px;
-        border: 1px solid #999;
+        border: 1px solid #144b60;
         font-size: 18px;
-        color: rgb(121, 110, 96);
+        color: #144b60;
         background-color: #eee;
         border-radius: 5px;
-        box-shadow: 4px 4px #ccc;
+        box-shadow: 4px 4px #144a6049;
 }
 
 .AllNombrePersonnesTemps{
