@@ -1,6 +1,9 @@
+import React from "react";
 import "../css/Card.css";
+
 import image from "../img/FarWest.webp";
 import { Link } from "react-router-dom"
+
 
 const Card = ({description ,title, image}) => {
   return (

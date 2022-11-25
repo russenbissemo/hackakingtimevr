@@ -1,3 +1,4 @@
+import React from "react";
 import Accueil from './pages/Accueil';
 import FormulaireReservation from "./pages/FormulaireReservationPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
