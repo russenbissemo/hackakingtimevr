@@ -26,13 +26,17 @@ export default function FormulaireReservation(){
     <source src={BackgroundVideo} type="video/mp4" />
     Your browser does not support the video tag.
 </video>
-            <NavBar />
-            <div className="divContainerFormulaire" style={{position: "absolute", top: "10em"}}>
-                <div className="AllDivFormulaireReservation">
-                <Link to="/">
+            <NavBar />    
+            <div>
+            <Link to="/">
                 <div
-              style={{backgroundColor: "white", borderRadius: "100%", height: "2em", width: "2em", display: "flex",alignItems: "center", justifyContent: "center", transform: "translate(57em, 0em)", position: "absolute", color: "black"}}>X</div>
+              style={{backgroundColor: "white", borderRadius: "100%", marginLeft:"40%", marginTop:"3%", height: "2em", width: "2em", display: "flex",alignItems: "center", justifyContent: "flex-end", zIndex: "55", position: "fixed", color: "black"}}>X</div>
         </Link>
+        </div>
+            <div className="divContainerFormulaire" style={{position: "absolute", top: "10em"}}>
+        
+                <div className="AllDivFormulaireReservation">
+            
                 <form>
                     <div className="titreFormulaireReservationDiv">
                         <h1 className="titreFormulaireReservation">Formulaire de réservation</h1>

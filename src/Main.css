@@ -29,6 +29,7 @@ section {
     gap: 1em;
     background-color: aliceblue;
     color: #144b60;
+    margin-bottom: 5em;
 }
 
 #background-video{
@@ -51,5 +52,3 @@ section {
       transform: scale(1);
     }
   }
-
-  
