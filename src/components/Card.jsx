@@ -7,7 +7,7 @@ const Card = ({description ,title, image}) => {
       <img
         className="card-img"
         src={image}
-        alt="far-west"
+        alt={title}
       />
         <h1 className="card-title">{title}</h1>
         <h2 className="card-time">45min</h2>

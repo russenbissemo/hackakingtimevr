@@ -8,8 +8,8 @@ const background = themeList.filter(list => list.title === theme).map(list => li
 
     return (
         <div
-            className={`frame ${theme}`}
-            style={{backgroundImage: `url(${background})`}}
+            className="frame"
+            // style={{backgroundImage: `url(${background})`}}
         >
         <p>{description}</p>
                 </div>

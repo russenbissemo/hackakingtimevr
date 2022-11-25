@@ -20,8 +20,8 @@ export default function NavBar(){
     
 
     return(
-        <div className="NavBarContainer">
-            <section className="topNavBar">
+        <>
+            <div className="topNavBar">
             <div>
             LOGO
           </div>
@@ -32,9 +32,9 @@ export default function NavBar(){
                     <li onClick={(modalCreationCompte)}>Création de compte</li>
                 </ul>
             </div>
-            </section>
+            </div>
             {showModalConnexion ? <ModalConnexion showModalConnexion = {setShowModalConnexion} /> : null}
             {showModalCreationCompte ? <ModalCreationCompte showModalCreationCompte= {setShowModalCreationCompte} /> : null}
-        </div>
+        </>
     )
 }
