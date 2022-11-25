@@ -2,8 +2,6 @@ import FormulaireReservation from "../Components/Formulaire/FormulaireReservatio
 
 export default function FormulaireReservationPage(){
     return(
-        <div>
             <FormulaireReservation />
-        </div>
     )
 }
