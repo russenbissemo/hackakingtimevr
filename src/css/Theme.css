@@ -20,7 +20,7 @@
     width: 200%;
     height: 100%;
     animation: spin 10s linear alternate infinite;
-    background: url("../../public/worldmap.png");
+    background: url("/public/worldmap.png");
     background-size: cover;
     touch-action: auto;
 

@@ -18,9 +18,7 @@ export default function FormulaireReservation(){
   
 
    return(
-  
     <div className="divContainerFormulaire">
-
         <div className="AllDivFormulaireReservation">
             <form>
                 <div className="titreFormulaireReservationDiv">

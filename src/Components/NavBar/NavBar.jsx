@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import "../NavBar/NavBar.css";
 import ModalConnexion from "../NavBar/Connexion/ModalConnexion";
