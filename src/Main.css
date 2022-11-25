@@ -1,22 +1,22 @@
 /* FONTS-CONTENT */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
+
+/* VARIABLE-CONTENT */
+:root {
+  --dark-grey-color: #6b6b6b;
+  --grey-color: #c4c3c3;
+  --white-color: #ffffff;
+  --red-color: #f36d6d;
+  --font-typed: "Josefin Sans";
+}
+
 * {
     box-sizing: content-box;
     margin: 0;
     padding: 0;
     font-family: "Josefin Sans";
-}
-
-/* VARIABLE-CONTENT */
-:root {
-    --dark-grey-color: #6b6b6b;
-    --grey-color: #c4c3c3;
-    --white-color: #ffffff;
-    --red-color: #f36d6d;
-    --font-typed: "Josefin Sans";
-    --light-blue-color: #267b98;
-    --dark-blue-color: #144b60;
+    
 }
 
 section {
@@ -28,11 +28,12 @@ section {
     align-items: center;
     gap: 1em;
     background-color: aliceblue;
+    color: #144b60;
 }
 
 #background-video{
-  height: 100%;
-  width: 200%;
+  height: full;
+  width: full;
   z-index: 0;
   float: left;
   top: 0;

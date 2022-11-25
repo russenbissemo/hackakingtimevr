@@ -16,6 +16,7 @@
 
 .sectionAboutUs {
     overflow: hidden;
+    border: 1em solid white;
     width: 30em;
     margin-right: 7em;
     margin-left: 7em;

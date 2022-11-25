@@ -32,6 +32,7 @@ a {
   .menu a:hover{
     text-decoration: underline;
   }
+
   
   .menu > li:hover{
     text-decoration: underline;
