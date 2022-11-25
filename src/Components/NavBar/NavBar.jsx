@@ -3,6 +3,8 @@ import { useState } from "react";
 import "../NavBar/NavBar.css";
 import ModalConnexion from "../NavBar/Connexion/ModalConnexion";
 import ModalCreationCompte from "../NavBar/CreationCompte/CreationCompte";
+import { Link } from "react-router-dom"
+
 
 export default function NavBar(){
 
@@ -28,7 +30,8 @@ export default function NavBar(){
           </div>
             <div>
                 <ul className="menu">
-                    <li>About Us</li>
+                  <Link to ="/apropos"> 
+                    <li>About Us</li></Link>
                     <li onClick={(modalConnexion)}>Connexion</li>
                     <li onClick={(modalCreationCompte)}>Création de compte</li>
                 </ul>
