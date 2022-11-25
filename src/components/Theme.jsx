@@ -1,8 +1,10 @@
 import Frame from "./Frame";
 import { useState } from "react";
 
-const Theme = ({image , title,setThemeSelected}) => {
+
+const Theme = ({ image, title, setThemeSelected }) => {
   const [ShowFrame, setShowFrame] = useState(title)
+
   return (
     <div
       onMouseOver={() => setShowFrame(title)}
@@ -12,9 +14,9 @@ const Theme = ({image , title,setThemeSelected}) => {
       id="theme">
       <img src={image} alt={title} />
       <Frame
-                    theme={ShowFrame}
-                />
-      
+        theme={ShowFrame}
+      />
+
     </div>
   )
 }
