@@ -1,4 +1,5 @@
 import "../ModalValidationFormulaireReservation/ModalValidationFormulaireReservation.css"
+import { Link } from 'react-router-dom'
 
 export default function ModalValidationFormulaireReservation() {
 
@@ -12,13 +13,11 @@ export default function ModalValidationFormulaireReservation() {
             <h3 className="titleTextModal">
               Votre demande à bien était prise en compte, nous vous recontacteront dès que possible.
             </h3>
-            <button
-              data-modal-toggle="popup-modal"
-              type="button"
-              className="boutonModalValidationReservation"
-            >
-              Super, merci !
-            </button>
+            <Link to="/">
+                <div className="wrapper">
+                    <button className="btn btn--border btn--primary btn--animated" type="submit">Super, merci !</button>
+                </div>
+            </Link>
         </div>
       </div>
     </div>
