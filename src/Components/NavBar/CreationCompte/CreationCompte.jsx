@@ -69,7 +69,8 @@ export default function ModalCreationCompte() {
             <button
               data-modal-toggle="popupmodalCreationCompte"
               type="button"
-              className="boutonModalValidationCreationCompte"
+                className="card-button"
+                style={{marginTop: "3em"}}
             >
               Super, merci !
             </button>

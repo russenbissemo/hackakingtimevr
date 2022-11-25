@@ -31,7 +31,7 @@ export default function ModalConnexion() {
             <button
               data-modal-toggle="popupmodalConnexion"
               type="button"
-              className="boutonModalValidationConnexion"
+              className="card-button"
             >
               Je me connecte !
             </button>

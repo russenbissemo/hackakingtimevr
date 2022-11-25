@@ -2,6 +2,8 @@
     overflow-y: auto;
     overflow-x: hidden;
     position: fixed;
+    display: flex;
+    justify-content: center;
     top: 0;
     right: 0;
     left: 0;
@@ -27,9 +29,9 @@
     width: 80%;
     text-align: center;
     margin-bottom: 100px;
-    background-color: rgb(231, 212, 188);
-    box-shadow: 5px 5px 5px rgb(121, 110, 96);
-    border-radius: 40px;
+    background-color: aliceblue;
+    border-radius: 5em;
+    border: 0.5em solid white;
     margin-top: 100px;
 }
 
@@ -52,6 +54,7 @@
   .AllMotDePasse{
     display: flex;
     justify-content: space-between;
+    gap: 5em;
   }
 
 .inputNomDeRueCreationCompte{
@@ -75,23 +78,22 @@
   }
   
   .AllDivCreationCompte{
-      padding-right: 30px;
-      padding-left: 30px;
-      padding-top: 30px;
-      padding-bottom: 50px;
+      padding: 4em;
       width: 100%;
-      border: 1px solid rgba(0, 0, 0, 0.139);
-      border-radius: 40px;
+      border: 1px solid rgba(67, 67, 67, 0.108);
+      border-radius: 5em;
   }
   
   .inputFirstNameAndNameCreationCompte, .allAdresseCreationCompte, .inputMailTelephoneCreationCompte{
       display: flex;
       justify-content: space-between;
+      gap: 5em;
   }
 
   .allCodePostalVille{
     display: flex;
     justify-content: space-between;
+    gap: 5em;
   }
   
   input{
