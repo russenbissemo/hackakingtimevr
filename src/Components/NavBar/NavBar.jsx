@@ -28,7 +28,8 @@ export default function NavBar(){
                <Link to="/"> <img src={Logo} style={{height: "5em",}} /></Link>
             <div>
                 <ul className="menu">
-                    <li>A propos</li>
+                  <Link to ="/apropos"> 
+                    <li>A propos</li></Link>
                     <li onClick={(modalConnexion)}>Connexion</li>
                     <li onClick={(modalCreationCompte)}>Création de compte</li>
                 </ul>

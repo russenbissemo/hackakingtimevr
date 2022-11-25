@@ -21,8 +21,18 @@
     margin: 0 1rem;
     overflow: hidden;
     color: white;
+    
   }
 
+a {
+  color: white;
+  text-decoration: none;
+  }
+
+  .menu a:hover{
+    text-decoration: underline;
+  }
+  
   .menu > li:hover{
     text-decoration: underline;
   }

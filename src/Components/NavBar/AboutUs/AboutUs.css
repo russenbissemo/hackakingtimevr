@@ -1,0 +1,26 @@
+.aboutUsContainer {
+    display: flex;
+    margin-top: 7em;
+    margin-bottom: 7em;
+    line-height: 3em;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.paragraphAboutUs{
+    font-size: 1.1em;
+}
+
+
+.sectionAboutUs {
+    overflow: hidden;
+    width: 30em;
+    margin-right: 7em;
+    margin-left: 7em;
+    border-radius:4em;
+    padding: 4em;
+    height: 100%;
+    line-height: 2.2em;
+}
