@@ -1,19 +1,22 @@
 import "../CreationCompte/CreationCompte.css"
 
-export default function ModalCreationCompte() {
+export default function ModalCreationCompte({showModalCreationCompte}) {
 
   return (
     <div
       tabIndex="-1"
-      className="popUpModal" 
+      className="popUpModalCreationCompte" 
     >
       <div className="AllModalCreationCompte">
           <div className="positionModalCreationCompteSurLaPage">
+          <div className="croixFermeture">
+              <button onClick={()=> showModalCreationCompte ? showModalCreationCompte(false) : showModalCreationCompte(true)}>X</button>
+            </div>
             <div className="divContainerCreationCompte">
         <div className="AllDivCreationCompte">
             <form className="FormulaireCreationCompte">
                 <div className="titreFormulaireCreationCompteDiv">
-                    <h1 className="titreFormulaireCreationCompte">CreationCompte</h1>
+                    <h1 className="titreFormulaireCreationCompte">Création de compte</h1>
                 </div>
                 <div className="inputFirstNameAndNameCreationCompte">
                     <div className="inputFirstNameCreationCompte">
@@ -66,14 +69,9 @@ export default function ModalCreationCompte() {
                   </div>
                 </form>
                 
-            <button
-              data-modal-toggle="popupmodalCreationCompte"
-              type="button"
-                className="card-button"
-                style={{marginTop: "3em"}}
-            >
-              Super, merci !
-            </button>
+             <div className="wrapper">
+                    <button onClick={()=> showModalCreationCompte ? showModalCreationCompte(false) : showModalCreationCompte(true)} className="btn btn--border btn--primary btn--animated" type="submit">Je crée mon compte !</button>
+                </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,8 @@
 import "../Connexion/ModalConnexion.css"
 
-export default function ModalConnexion() {
+export default function ModalConnexion({ showModalConnexion }) {
+
+
 
   return (
     <div
@@ -9,6 +11,9 @@ export default function ModalConnexion() {
     >
       <div className="AllModalConnexion">
           <div className="positionModalConnexionSurLaPage">
+            <div className="croixFermeture">
+              <button onClick={()=> showModalConnexion ? showModalConnexion(false) : showModalConnexion(true)}>X</button>
+            </div>
             <div className="divContainerConnexion">
         <div className="AllDivConnexion">
             <form className="FormulaireConnexion">
@@ -27,14 +32,11 @@ export default function ModalConnexion() {
                 </div>
               
                 </form>
-                
-            <button
-              data-modal-toggle="popupmodalConnexion"
-              type="button"
-              className="card-button"
-            >
-              Je me connecte !
-            </button>
+                <div className="wrapper">
+                    <button onClick={()=> showModalConnexion ? showModalConnexion(false) : showModalConnexion(true)}
+ className="btn btn--border btn--primary btn--animated" type="submit">Je me connecte !</button>
+                </div>
+    
         </div>
       </div>
     </div>
