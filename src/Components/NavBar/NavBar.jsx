@@ -3,6 +3,8 @@ import { useState } from "react";
 import "../NavBar/NavBar.css";
 import ModalConnexion from "../NavBar/Connexion/ModalConnexion";
 import ModalCreationCompte from "../NavBar/CreationCompte/CreationCompte";
+import Logo from "../../img/logo.png"
+import { Link } from "react-router-dom"
 
 export default function NavBar(){
 
@@ -23,12 +25,10 @@ export default function NavBar(){
     return(
         <>
             <div className="topNavBar">
-            <div>
-            LOGO
-          </div>
+               <Link to="/"> <img src={Logo} style={{height: "5em",}} /></Link>
             <div>
                 <ul className="menu">
-                    <li>About Us</li>
+                    <li>A propos</li>
                     <li onClick={(modalConnexion)}>Connexion</li>
                     <li onClick={(modalCreationCompte)}>Création de compte</li>
                 </ul>

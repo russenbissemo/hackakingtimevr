@@ -11,7 +11,7 @@ export default function ModalCreationCompte({showModalCreationCompte}) {
       <div className="AllModalCreationCompte">
           <div className="positionModalCreationCompteSurLaPage">
           <div className="croixFermeture">
-              <button onClick={()=> showModalCreationCompte ? showModalCreationCompte(false) : showModalCreationCompte(true)}>X</button>
+              <div onClick={()=> showModalCreationCompte ? showModalCreationCompte(false) : showModalCreationCompte(true)} style={{backgroundColor: "white", borderRadius: "100%", height: "2em", width: "2em", display: "flex",alignItems: "center", justifyContent: "center", transform: "translate(-15px)" }}>X</div>
             </div>
             <div className="divContainerCreationCompte">
         <div className="AllDivCreationCompte">
@@ -22,11 +22,11 @@ export default function ModalCreationCompte({showModalCreationCompte}) {
                 <div className="inputFirstNameAndNameCreationCompte">
                     <div className="inputFirstNameCreationCompte">
                         <input type="text" />
-                        <label>First Name</label>
+                        <label>Prénom</label>
                     </div>
                     <div className="inputLastNameCreationCompte">
                         <input type="text" />
-                        <label>Last Name</label>
+                        <label>Nom</label>
                     </div>
                 </div>
                 <div className="inputMailTelephoneCreationCompte">

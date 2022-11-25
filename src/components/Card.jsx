@@ -17,7 +17,7 @@ const Card = ({description ,title, image}) => {
         <h2 className="card-time">45min</h2>
         <p className="card-description">{description}</p>
         <Link to ="/travel">
-        <button className="card-button">Travel</button>
+        <button className="card-button">Reserver</button>
         </Link>
      </div>
   )
