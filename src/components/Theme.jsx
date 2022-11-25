@@ -12,9 +12,9 @@ const Theme = ({image , title,setThemeSelected}) => {
       className={`period ${title}`}
       id="theme">
       <img src={image} alt={title} />
-      <Frame
+     {ShowFrame && <Frame
                     theme={ShowFrame}
-                />
+                />}
       
     </div>
   )

@@ -12,7 +12,7 @@
     overflow: hidden;
     border-radius: 50%;
     border: 1em solid rgb(255, 255, 255);
-    /* box-shadow: 0 0 20px 20px rgb(158, 158, 158) inset, 0 0 2em 2px rgb(145, 144, 144); */
+    box-shadow: 0 0 20px 20px aliceblue inset, 0 0 2em 1em rgba(151, 151, 151, 0.292);
 }
 
 
@@ -24,7 +24,13 @@
     background-size: cover;
 }
 
+.earth>div:hover {
+    animation-play-state: paused;
+}
+
+
 .period {
+    background-color: rgba(255, 255, 255, 0.515);
     width: 4em;
     height: 4em;
     border-radius: 50%;
@@ -60,23 +66,21 @@
 .samurai {
     position: absolute;
     top: 55%;
-    right: 14%;
+    right: 17%;
 }
 
-.china {
-    position: absolute;
-top: 25%;
-right: 12%;
-}
 
 .frame {
     text-align: center;
-    width: auto;
-    background-color:azure;
-    border-radius: 5%;
+    background-color:rgba(255, 255, 255, 0.837);
+    border-radius: 0.5em;
+    padding: 0.3em;
     font-display: center;
+    animation-name: zoom;
+    animation-duration: 0.5s;
+
 }
 
 .frame p {
-    font-weight: bold;
+    font-weight: bold;;
 }

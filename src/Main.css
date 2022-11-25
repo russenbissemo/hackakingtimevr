@@ -26,3 +26,14 @@ section {
     gap: 2em;
     background-color: aliceblue;
 }
+
+@keyframes zoom {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  
