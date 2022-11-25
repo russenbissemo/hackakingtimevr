@@ -5,13 +5,13 @@ import FonctionDevis from "../FonctionDevis/FonctionDevis";
 import ModalValidationFormulaireReservation from "./ModalValidationFormulaireReservation/ModalValidationFormulaireReservation";
 import NavBar from "../../NavBar/NavBar";
 import BackgroundVideo from "../../../img/background.mp4"
+import { Link } from "react-router-dom"
 
 
 export default function FormulaireReservation(){
 
     const [price, setPrice] = useState("");
     const [showModal, setShowModal] = useState(false);
-
 
     const validationReservation =(e) =>{
         e.preventDefault()
@@ -28,7 +28,11 @@ export default function FormulaireReservation(){
 </video>
             <NavBar />
             <div className="divContainerFormulaire" style={{position: "absolute", top: "10em"}}>
-            <div className="AllDivFormulaireReservation">
+                <div className="AllDivFormulaireReservation">
+                <Link to="/">
+                <div
+              style={{backgroundColor: "white", borderRadius: "100%", height: "2em", width: "2em", display: "flex",alignItems: "center", justifyContent: "center", transform: "translate(57em, 0em)", position: "absolute", color: "black"}}>X</div>
+        </Link>
                 <form>
                     <div className="titreFormulaireReservationDiv">
                         <h1 className="titreFormulaireReservation">Formulaire de réservation</h1>

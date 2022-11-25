@@ -3,14 +3,14 @@ export const  themeList =[
    {
      id:1,
      title: 'samurai',
-     description: "Japan",
+     description: "Japon",
      url: "./icons/samurai.png",
      background: "",
    },
    {
     id:2,
      title: 'grece',
-     description: "Grece",
+     description: "Gréce",
      url: "./icons/zeus.png",
      background: "",
   },
@@ -18,7 +18,7 @@ export const  themeList =[
     title: 'farwest',
     description: "FarWest",
     url: "./icons/cowboy.png",
-    background: "./frame/wanted.png",
+    background: "",
   },
 ]
 
