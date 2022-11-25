@@ -1,5 +1,5 @@
+import React from "react";
 import "../css/Card.css";
-import image from "../img/FarWest.webp";
 
 const Card = ({description ,title, image}) => {
   return (

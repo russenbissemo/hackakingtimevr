@@ -1,3 +1,4 @@
+import React from "react";
 import "../CreationCompte/CreationCompte.css"
 
 export default function ModalCreationCompte() {

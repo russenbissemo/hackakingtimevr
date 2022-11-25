@@ -1,9 +1,9 @@
-import {useState } from 'react';
+import React from "react";
+import { useState } from 'react';
 import { themeList, cardList } from "../data/data";
 import NavBar from '../Components/NavBar/NavBar';
 import Theme from "../Components/Theme";
 import Card from "../Components/Card";
-import Frame from '../Components/Frame';
 import "../css/Theme.css"
 
 
