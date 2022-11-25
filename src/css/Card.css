@@ -27,10 +27,12 @@
 .card-title {
     color: var(--blue-color);
 }
+
 .card-time {
     color: var(--red-color);
     margin-top: 0;
 }
+
 .card-description {
     color: var(--grey-color);
     text-align: center;
